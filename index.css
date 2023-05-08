@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    height: 30px;
+    width: 100px;
+    font-size: 24px;
+    text-align: center;
+}
+
+button{
+    height: 40px;
+    width: 40%;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    border-radius: 30px;
+}
